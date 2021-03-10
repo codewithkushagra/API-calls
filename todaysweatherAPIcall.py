@@ -6,8 +6,8 @@ request=requests.get(url)
 
 json=request.json()
 
-for i in json:
-     print(i)
+print(json)
 
-while 1:
-     i=0
+# for i in json:
+#      print(i)
+
