@@ -6,8 +6,7 @@ request=requests.get(url)
 
 json=request.json()
 
-print(json)
 
-# for i in json:
-#      print(i)
+for i in json:
+     print(i['weather_state_name'])
 

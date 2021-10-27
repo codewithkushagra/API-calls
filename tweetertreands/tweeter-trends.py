@@ -4,7 +4,7 @@ url="https://twitter-trends-daily.herokuapp.com/alltrends"
 
 request=requests.get(url)
 
-#print(request)
+print(request)
 
 json_data=request.json()
 
@@ -12,10 +12,10 @@ print(json_data)
 
 print(json_data['date'])
 
-#print(json_data['trends']['london'])
+# #print(json_data['trends']['london'])
 
-# for i in json_data['trends']['india']:
-#     print(i)
+# # for i in json_data['trends']['india']:
+# #     print(i)
 
 dict_data=dict(json_data)
 #dict_data=json_data
